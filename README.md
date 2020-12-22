@@ -5,5 +5,6 @@ The on device apis from firebase ml_vision are deprecated and cause build errors
 
 
 ## Getting Started
+*** VERY EARLY VERSION ***
 
-ONLY BARCODE SCANNING WORKS AS OF NOW, please feel free to fork and add support for other vision apis.
+ONLY BARCODE SCANNER WORKS ON ANDROID, please feel free to fork and add support for other vision apis.
