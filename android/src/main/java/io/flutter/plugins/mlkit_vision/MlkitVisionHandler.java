@@ -121,7 +121,7 @@ class MlkitVisionHandler implements MethodChannel.MethodCallHandler {
         byte[] bytes = (byte[]) imageData.get("bytes");
         assert bytes != null;
 
-        return InputImage.fromByteArray(bytes, width, height, rotationDeg, InputImage.IMAGE_FORMAT_NV21);
+        return InputImage.fromByteArray(bytes, width, height, rotationDeg, InputImage.IMAGE_FORMAT_YUV_420_888);
       default:
         throw new IllegalArgumentException(String.format("No image type for: %s", imageType));
     }
